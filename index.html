@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MySite Chatbot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding-top: 70px; /* Space for navbar */
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .nav-links a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .nav-links a:hover {
+            color: #007bff;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            max-width: 800px;
+            margin-top: 40px;
+        }
+        .hero-section h1 {
+            font-size: 48px;
+            color: #1c1e21;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 18px;
+            color: #606770;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+            width: 100%;
+            font-size: 12px;
+            color: #8a8d91;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./index.html" class="nav-brand">MySite</a>
+            <div class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./login.html">Login</a>
+                <a href="./signup.html">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="hero-section">
+        <h1>Meet Your New AI Assistant</h1>
+        <p>Our intelligent chatbot is here to help you with anything you need, 24/7. Experience seamless conversations and get instant answers. Sign up today to get started!</p>
+        <a href="./signup.html" class="cta-button">Get Started Now</a>
+    </main>
+
+    <footer>
+        &copy; 2025 Your Company. All rights reserved.
+    </footer>
+
+</body>
+</html>
